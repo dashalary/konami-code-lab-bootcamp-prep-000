@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   document.body.addEventListener("keydown", (event) => {
-    const alphabet = ['a', 'b', 'c'];
+    
  
 // Keep track of index outside of the event handler.
 let index = 0;
@@ -22,10 +22,10 @@ let index = 0;
 function onKeyDownHandler(e) {
   const key = e.key;
  
-  if (key === alphabet[index]) {
+  if (key === codes[index]) {
     index++;
  
-    if (index === alphabet.length) {
+    if (index === codes.length) {
       alert("Hurray!");
  
       index = 0;
