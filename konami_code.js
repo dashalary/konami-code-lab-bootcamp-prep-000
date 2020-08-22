@@ -16,7 +16,10 @@ function init() {
     
 debugger
 let index = 0;
- 
+ const key = event.key;
+ if (key === codes[index]) {
+   index++;
+   
     if (index === codes.length) {
       alert("Hurray!");
  
