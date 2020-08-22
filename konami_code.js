@@ -21,7 +21,7 @@ let index = 0;
       alert("Hurray!");
  
       index = 0;
-    }
+    
   } else {
     index = 0;
   }
