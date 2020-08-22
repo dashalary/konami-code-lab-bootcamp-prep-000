@@ -17,6 +17,7 @@ function init() {
 
 let index = 0;
  
+ 
   if (key === codes[index]) {
     index++;
  
