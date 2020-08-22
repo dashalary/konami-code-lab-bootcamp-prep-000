@@ -34,5 +34,5 @@ function onKeyDownHandler(e) {
   }
 }
   }
-}
+)
 }
